@@ -1,0 +1,135 @@
+#banner {
+    background-color: #ADD8E6;
+    height: 30px;
+    border: 2px solid blue;
+  }
+  
+  
+  table.custom-table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  table.custom-table th,td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+  }
+
+  /* sayfa başlığı*/
+  #title {
+    margin-left: 750px;
+    color: green;
+  }
+
+
+
+  .centered-cell {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .shrink {
+    width: 80px; /*  genişlik */
+    height: 80px; /* yükseklik ayarlaması */
+
+  }
+
+  
+
+
+
+  .image-border {
+    width: 70px; /*  genişlik */
+    height: auto; /* yükseklik ayarlaması */
+    border: 3px solid black; /* border kalınlık */
+    padding: 10px; /* Resim ile border arasında boşluk bırakır */
+    background-color: #db761d;
+  }
+
+  .link-image-border {
+    width: 50px; /*  genişlik */
+    height: auto; /* yükseklik ayarlaması */
+    border: 3px solid #008000; /* border kalınlık */
+    background-color: #ADD8E6;
+    padding: 5px; /* Resim ile border arasında boşluk bırakır */
+    border-radius: 20px;
+    margin-left: 50px;
+  }
+  .link-text-border {
+    width: 130px; /*  genişlik */
+    height: auto; /* yükseklik ayarlaması */
+    border: 3px solid #008000; /* border kalınlık */
+    background-color: #ADD8E6;
+    padding: 5px; /* Resim ile border arasında boşluk bırakır */
+    border-radius: 20px;
+  }
+
+
+
+  .profile-details {
+    width: 90px; /*  genişlik */
+    height: auto; /* yükseklik ayarlaması */
+    border: 3px solid blue; /* border kalınlık */
+    background-color: #e4eb28;
+    padding: 10px; /* Resim ile border arasında boşluk bırakır */
+  }
+
+
+  
+  
+  #ort {
+    background-color: #00FF00;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+  #ort2 {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+  #click {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-left: 70px;
+    
+  }
+
+  #linkid {
+    margin-left: 80px; 
+  }
+
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  
+  
