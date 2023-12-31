@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Search</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <h1>Student Search</h1>
+  </header>
+
+  <div id="main-container">
+    <label for="searchInput">Öğrenci Adi:</label>
+    <input type="text" id="searchInput" name="searchInput">
+    <button id="searchButton" onclick="searchStudentAndDisplayCourses() ">Ara</button>
+
+    <div id="student-info">
+      <!-- Arama sonucunu burada göstermek için bir alan -->
+    </div>
+
+    <!-- Öğrenci dersleri tablosunun gösterileceği alan -->
+    <div id="display-student-courses"></div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

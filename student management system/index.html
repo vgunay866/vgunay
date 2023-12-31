@@ -1,0 +1,81 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Student Management System</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+        <h1>Student Management System</h1>
+      </header>
+
+      <!-- Kurs bilgilerini girme formu -->
+      <div id="main-container">
+        <div id="course-section">
+          <h2>Add Course and Set Grading Scale</h2>
+          <div id="course-form" >
+            <label for="courseName">Course Name:</label>
+            <input type="text" id="courseName" name="courseName" required>
+
+            <label for="gradingScale">Grading Scale:</label>
+            <input type="number" id="gradingScale" name="gradingScale" required>
+
+            <button onclick="addCourse(event)">Add Course</button>
+
+          </div>
+        </div>
+
+        <!-- Öğrenci bilgilerini girme formu -->
+        <div id="student-section">
+          <h2>Add Student and Scores</h2>
+          <div id="student-form" >
+            
+            <label for="studentId">Student ID:</label>
+            <input type="number" id="studentId" name="studentId" required>
+
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+
+            <label for="studentSurname">Student Surname:</label>
+            <input type="text" id="studentSurname" name="studentSurname" required>  
+
+            <label for="midtermGrade">Midterm Grade:</label>
+            <input type="number" id="midtermGrade" name="midtermGrade" required>
+
+            <label for="finalGrade">Final Grade:</label>
+            <input type="number" id="finalGrade" name="finalGrade" required>
+
+
+            <label for="studentCourse">Student Course:</label>
+            <select id="studentCourse"></select>
+
+            <br>
+            </br>
+
+            <button onclick="addStudent(event)">Add Student</button>
+
+
+            <div id="update-form"></div>
+
+          </div>
+        </div>
+
+        <div id="display-section">
+          <h2>Display Information</h2>
+          <div id="display-courses">
+            <!-- Ders bilgileri burada gözükecek -->
+          </div>
+
+          <div id="display-students">
+            <!-- Öğrenci bilgileri burada gözükecek -->
+          </div>
+        </div>
+
+
+      </div>
+
+      <a href="studentSearch.html" target="_blank">Student Search </a>
+      <script src="script.js"></script>
+    </body>
+    </html>
